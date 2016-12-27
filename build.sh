@@ -154,8 +154,8 @@ function cli_build() {
 function cli_install() {
   local output_directory=$1
   local script_directory=$2
-  local cli_artifact="$BUILD_DIRECTORY/Build/Products/Debug/!(*.framework)"
-  local framework_artifact="$BUILD_DIRECTORY/Build/Products/Debug/*.framework"
+  local cli_artifact="fbsimctl/Build/Products/Debug/!(*.framework)"
+  local framework_artifact="fbsimctl/Build/Products/Debug/*.framework"
   local output_directory_cli="$output_directory/bin"
   local output_directory_framework="$output_directory/Frameworks"
 
